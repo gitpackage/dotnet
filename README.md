@@ -131,7 +131,7 @@ Make sure you have the following installed before running the project:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/gitpackage/EmployeeDatabase.git
+git clone https://github.com/gitpackage/dotnet.git
 cd EmployeeDatabase
 ```
 
