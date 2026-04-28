@@ -8,6 +8,7 @@ namespace EmployeeDatabase.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
+	[Tags("Employee Management APIs")]
 	public class EmployeesController : ControllerBase
 	{
 		private readonly ApplicationDbContext dbContext;

@@ -20,6 +20,19 @@ builder.Services.AddSwaggerGen(options =>
 //Register Database context
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Swagger implementation for header comments begin
+builder.Services.AddOpenApi(options =>
+{
+	options.AddDocumentTransformer((document, context, cancellationToken) =>
+	{
+		document.Info.Title = "Employee details custom comments";
+		document.Info.Version = "custom V2";
+		return Task.CompletedTask;
+	});
+});
+//Swagger implementation for header comments end
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
