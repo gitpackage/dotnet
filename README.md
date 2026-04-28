@@ -5,6 +5,7 @@ A complete Employee Management REST API built with **ASP.NET Core**, **Entity Fr
 This repo accompanies a step-by-step video tutorial. Whether you clone it to learn from the code or follow along with the video, the goal is the same: a working, production-style Web API you can build, run, and extend.
 
 📺 **Watch the full tutorial on YouTube:** [https://youtu.be/VIYj55lvGtA](https://youtu.be/VIYj55lvGtA)
+📺 **Watch how to customize Swagger OpenApi document:** https://www.youtube.com/watch?v=E4CvZX9AdrY  
 
 ---
 
